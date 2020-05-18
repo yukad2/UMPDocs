@@ -1,0 +1,26 @@
+site_name: Udon Media Player
+theme: material
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "custom.css"
+
+extra:
+    font:
+        text: "Noto Sans JP"
+        code: "Consolas"
+
+markdown_extensions:
+    - admonition
+
+nav:
+    - Home: index.md
+    - 導入.md
+    - 逆引き:
+        - スライドショーを設定する: howto/slideshow.md
+        - BGMを設定する: howto/bgm.md
+    - gameObject:
+        - BGMController.md
+        - SlideshowController.md
+
+  
